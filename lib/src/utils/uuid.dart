@@ -1,7 +1,7 @@
 import 'package:uuid/uuid.dart';
 
-class UniqueGenerator {
-  static String getTimeBasedString() {
+class Generate {
+  static String timeBasedUniqueString() {
     return const Uuid().v1();
   }
 }

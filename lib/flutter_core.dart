@@ -1,2 +1,2 @@
 export 'src/utils/result.dart';
-export './src/utils/encrypt.dart';
+export 'src/extension/encrypt.dart';
