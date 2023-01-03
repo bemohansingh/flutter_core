@@ -37,12 +37,14 @@ class SecureLocalStorage implements BaseLocalStorage {
   }
 
   // Saving model into Storage
+  @override
   Future<void> setObject(Map<String, dynamic> object, String key) async {
     String json = jsonEncode(object);
     await _storage.write(key: key.toLowerCase(), value: json);
   }
 
 // Getting model from storage
+  @override
   Future<Map<String, dynamic>?> getObject(String key) async {
     final str = await _storage.read(key: key.toLowerCase());
     if (str == null) {
