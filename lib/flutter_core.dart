@@ -9,6 +9,7 @@ export 'src/local_storage/secure_local_storage.dart';
 //packages
 export 'package:flutter_bloc/flutter_bloc.dart';
 export 'package:flutter_secure_storage/flutter_secure_storage.dart';
+export 'package:get_it/get_it.dart';
 
 // ignore: depend_on_referenced_packages
 export 'package:bloc/bloc.dart';
