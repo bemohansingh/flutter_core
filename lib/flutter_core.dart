@@ -1,4 +1,5 @@
 export 'src/utils/result.dart';
+export 'src/utils/uuid.dart';
 export 'src/extension/encrypt.dart';
 export 'src/entity/entity.dart';
 export 'src/use_case/base_use_case.dart';
